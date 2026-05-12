@@ -1,0 +1,56 @@
+.contact {
+  padding: 120px 24px;
+  background-color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tag {
+  color: #f87171;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #b3b3b3;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.links a {
+  padding: 16px 28px;
+  background-color: #111111;
+  border: 1px solid #222;
+  border-radius: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  border-color: #f87171;
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+}
