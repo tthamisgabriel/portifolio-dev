@@ -47,7 +47,7 @@ npm run build
 Acesse o projeto publicado:
 
 ```txt
-https://portifolio-d3qritdy4-tthamisgabriels-projects.vercel.app/
+https://portifolio-dev-seven-sigma.vercel.app/
 ```
 
 
