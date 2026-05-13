@@ -17,9 +17,24 @@ function Hero() {
           experiência do usuário e desenvolvimento front-end.
         </p>
 
-        <a href="#projects" className={styles.button}>
-          Ver Projetos
-        </a>
+          <div className={styles.buttons}>
+
+          <a href="#about" className={styles.buttonSecondary}>
+            Sobre Mim
+          </a>
+
+          <a href="#projects" className={styles.buttonSecondary}>
+            Projetos
+          </a>
+
+          <a href="#skills" className={styles.buttonSecondary}>
+            Habilidades
+          </a>
+
+          <a href="#contact" className={styles.buttonSecondary}>
+            Contato
+          </a>
+        </div>
       </div>
     </section>
   )

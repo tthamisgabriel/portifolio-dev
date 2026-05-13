@@ -7,11 +7,12 @@ function Skills() {
     'JavaScript',
     'React',
     'Git e GitHub',
+    'SQL',
     'Responsividade',
   ]
 
   return (
-    <section className={styles.skills}>
+    <section className={styles.skills} id="skills">
       <div className={styles.container}>
         <p className={styles.tag}>HABILIDADES</p>
 

@@ -1,16 +1,54 @@
-# React + Vite
+# Portfolio Dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio online desenvolvido com React para apresentar projetos, habilidades e informações profissionais.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- JavaScript
+- CSS Modules
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Página inicial com apresentação profissional
+- Seção Sobre Mim
+- Listagem de projetos
+- Área de habilidades e tecnologias
+- Links de contato
+- Layout responsivo para desktop e mobile
 
-## Expanding the ESLint configuration
+## Projetos apresentados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Portfolio Dev
+Portfólio moderno desenvolvido em React com layout responsivo e tema escuro.
+
+### Dashboard de Dados
+Projeto fictício de dashboard para visualização de métricas e indicadores.
+
+### Landing Page
+Página responsiva criada para apresentação de produto ou serviço.
+
+## Como rodar o projeto localmente
+
+```bash
+npm install
+npm run dev
+```
+
+## Build de produção
+
+```bash
+npm run build
+```
+
+## Deploy online
+
+Acesse o projeto publicado:
+
+```txt
+https://portifolio-d3qritdy4-tthamisgabriels-projects.vercel.app/
+```
+
+
+

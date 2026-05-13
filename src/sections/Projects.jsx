@@ -3,24 +3,36 @@ import styles from './Projects.module.css'
 function Projects() {
   const projects = [
     {
-      title: 'Projeto Portfolio',
-      description: 'Portfólio moderno desenvolvido em React.',
-      image: 'https://placehold.co/600x400',
-      link: '#',
+      title: 'Diário de Bordo PWA',
+
+      description:
+        'Aplicação Web Progressiva (PWA) desenvolvida para registrar atividades diárias de forma simples e responsiva.',
+
+      image: '/projects/diario-de-bordo.png',
+
+      link: 'https://github.com/tthamisgabriel/diario-de-bordo-pwa',
     },
 
     {
-      title: 'Dashboard de Dados',
-      description: 'Dashboard com análise de métricas e gráficos.',
-      image: 'https://placehold.co/600x400',
-      link: '#',
+      title: 'Portal de Viagens',
+
+      description:
+        'Projeto desenvolvido em Next.js com TypeScript, simulando um pequeno portal de viagens com listagem de destinos turísticos e páginas individuais de detalhes.',
+
+      image: '/projects/projeto-portal-viagens.png',
+
+      link: 'https://github.com/tthamisgabriel/projeto-portal-viagens',
     },
 
     {
-      title: 'Landing Page',
-      description: 'Página responsiva para apresentação de produto.',
-      image: 'https://placehold.co/600x400',
-      link: '#',
+      title: 'Todo React Avançado',
+
+      description:
+        'Aplicação de lista de tarefas (Todo List) desenvolvida com React, utilizando conceitos como Context API, Hooks customizados e memoização.',
+
+      image: '/projects/todo-react-avancado.png',
+
+      link: 'https://github.com/tthamisgabriel/todo-react-avancado',
     },
   ]
 
@@ -47,7 +59,11 @@ function Projects() {
 
                 <p>{project.description}</p>
 
-                <a href={project.link}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Ver Projeto
                 </a>
               </div>

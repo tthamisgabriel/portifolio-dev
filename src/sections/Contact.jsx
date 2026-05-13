@@ -2,7 +2,7 @@ import styles from './Contact.module.css'
 
 function Contact() {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id="contact">
       <div className={styles.container}>
         <p className={styles.tag}>CONTATO</p>
 
@@ -15,15 +15,15 @@ function Contact() {
         </p>
 
         <div className={styles.links}>
-          <a href="https://www.linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/thamiresgab/" target="_blank">
             LinkedIn
           </a>
 
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/tthamisgabriel" target="_blank">
             GitHub
           </a>
 
-          <a href="mailto:seuemail@email.com">
+          <a href="mailto:tthamisgabriel@gmail.com">
             E-mail
           </a>
         </div>

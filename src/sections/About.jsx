@@ -2,11 +2,11 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <div className={styles.container}>
         <div className={styles.imageArea}>
           <img
-            src="https://placehold.co/400x400"
+            src="/profile/foto-perfil.png"
             alt="Foto de perfil"
             className={styles.image}
           />
@@ -19,18 +19,15 @@ function About() {
             Desenvolvedora em formação apaixonada por tecnologia
           </h2>
 
-          {/* TROQUE ESTE TEXTO PELO SEU TEXTO SOBRE VOCÊ */}
+          {}
           <p className={styles.description}>
-            Atualmente estou desenvolvendo projetos com React,
-            JavaScript e tecnologias front-end modernas.
-            Busco criar interfaces organizadas, responsivas
-            e com boa experiência para o usuário.
+            Estudante de Ciência da Computação em transição para desenvolvimento de software, com foco em aplicações web. Conhecimentos em JavaScript, React, HTML, CSS, Tailwind e SQL, com desenvolvimento de projetos práticos utilizando APIs e GitHub. Experiência com análise de métricas e tomada de decisão orientada a dados. Buscando oportunidade de estágio em desenvolvimento.
           </p>
 
           <div className={styles.info}>
-            <p>Email: seuemail@email.com</p>
+            <p>Email: tthamisgabriel@gmail.com</p>
             <p>São Paulo - SP</p>
-            <p>GitHub: github.com/seuusuario</p>
+            <p>GitHub: github.com/tthamisgabriel</p>
           </div>
         </div>
       </div>
